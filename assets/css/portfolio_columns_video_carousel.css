@@ -1,0 +1,356 @@
+/*
+	StyleSheet For Responsive Bootstrap Carousel 4
+	Author: szthemes
+	Item Name: Responsive Bootstrap Carousel 4
+	Author URI: http://codecanyon.net/user/szthemes
+	Description: Different Types of Bootstrap Carousel 4
+
+  ------------------------------------------------------------------
+							Fonts Styles
+  ------------------------------------------------------------------
+	  'Open Sans', sans-serif -------------------------------- 01
+	            FontAwesome ---------------------------------- 02
+  ------------------------------------------------------------------
+							Color Codes
+  ------------------------------------------------------------------
+	NAME    ------------------------RGB-------------------------- #
+	#ffffff -------------------rgb(255, 255, 255)---------------- 01
+	#282828 -------------------rgb(40, 40, 40)------------------- 02
+	#e62117 -------------------rgb(230, 33, 23)------------------ 03 	Replace Also This Color To Change Whole Color Scheme
+	#cc181e -------------------rgb(204, 24, 30)------------------ 04 	Replace Also This Color To Change Whole Color Scheme
+	#cccccc -------------------rgb(204, 204, 204)---------------- 05
+	#fafafa -------------------rgb(250, 250, 250)---------------- 06
+	#767676 -------------------rgb(118, 118, 118)---------------- 07
+*/
+
+/*------------------------------------------------------*/
+/* PORTFOLIO COLUMNS VIDEO CAROUSEL
+/*------------------------------------------------------*/
+.portfolio_utube_carousel_wrapper{
+  overflow: hidden;
+  padding: 15px 50px 15px 50px;
+}
+.portfolio_utube_carousel_wrapper .carousel-item > .row{
+  margin: 0;
+}
+/*---------- HEADER ----------*/
+.portfolio_utube_carousel_header a,
+.portfolio_utube_carousel_header a:visited{
+  text-decoration: none;
+}
+.portfolio_utube_carousel_header>a>span{
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+.portfolio_utube_carousel_header>a + span{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.portfolio_utube_carousel_header>a>span{
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+.portfolio_utube_carousel_header>a>img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.portfolio_utube_suscribe_button{
+  float: right;
+}
+.portfolio_utube_suscribe_button>a,
+.portfolio_utube_suscribe_button>a:visited{
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  padding: 3px 7px 3px 7px;
+  font-family: 'Open Sans', sans-serif;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+.portfolio_utube_suscribe_button>a>i{
+  margin-right: 5px;
+}
+.portfolio_utube_suscribe_button>span{
+  font-size: 13px;
+  border-radius: 2px;
+  padding: 2px 6px 2px 6px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.portfolio_utube_carousel_control_left,
+.portfolio_utube_carousel_control_right{
+  top: 42%;
+  z-index: 2;
+  opacity: 0;
+  width: 30px;
+  height: 65px;
+  border: none;
+  text-shadow: none;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+.portfolio_utube_carousel_wrapper:hover .portfolio_utube_carousel_control_left,
+.portfolio_utube_carousel_wrapper:hover .portfolio_utube_carousel_control_right{
+  opacity: 0.8;
+}
+.portfolio_utube_carousel_control_icons{
+  line-height: 65px;
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+.portfolio_utube_carousel_control_left{
+  left: 1% !important;
+}
+.portfolio_utube_carousel_control_right{
+  right: 1% !important;
+}
+
+/*---------- CAPTION ----------*/
+/*---------- IMAGE ----------*/
+.portfolio_utube_item{
+  padding-top: 10px;
+	padding-bottom: 0px;
+}
+.portfolio_utube_item_image{
+  overflow: hidden;
+  position: relative;
+}
+.portfolio_utube_item_image> img{
+  width: 100%;
+}
+.portfolio_utube_item_image>a,
+.portfolio_utube_item_image>a:visited{
+  right: 2px;
+  bottom: 2px;
+  font-size: 11px;
+  position: absolute;
+  text-decoration: none;
+  padding: 1px 5px 1px 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*---------- TEXT ----------*/
+.portfolio_utube_item_caption{
+  padding-top: 5px;
+}
+.portfolio_utube_item_caption>a,
+.portfolio_utube_item_caption>a:visited{
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  color: #5969dc;
+}
+.portfolio_utube_item_caption_author{
+  font-size: 12px;
+}
+.portfolio_utube_item_caption_author>a,
+.portfolio_utube_item_caption_author>a:visited{
+  font-size: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+.portfolio_utube_item_caption_author>i{
+  font-size: 13px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+.portfolio_utube_item_caption>ul{
+  padding: 0px;
+  list-style-type: none;
+}
+.portfolio_utube_item_caption>ul>li{
+  font-size: 12px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
+.portfolio_utube_item_caption>ul>li>span{
+  margin: 0px 3px 0px 3px;
+}
+
+/*------------------------------------------------------*/
+/* COLORS (MIX)
+/*------------------------------------------------------*/
+
+.portfolio_utube_carousel_wrapper{
+  background: #ffffff;
+}
+/*---------- HEADER ----------*/
+.portfolio_utube_carousel_header>a>span{
+  color: #282828;
+}
+.portfolio_utube_carousel_header>a>span:hover{
+  color: #e62117;
+}
+.portfolio_utube_carousel_header>a + span{
+  color: #767676;
+}
+.portfolio_utube_carousel_header>a>span{
+  color: #282828;
+}
+.portfolio_utube_suscribe_button>a,
+.portfolio_utube_suscribe_button>a:visited{
+  color: #ffffff;
+  background: #e62117;
+}
+.portfolio_utube_suscribe_button>a:hover,
+.portfolio_utube_suscribe_button>a:active{
+  background: #cc181e;
+}
+.portfolio_utube_suscribe_button>span{
+  background: #fafafa;
+  border: 1px solid #cccccc;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.portfolio_utube_carousel_control_left,
+.portfolio_utube_carousel_control_left:hover,
+.portfolio_utube_carousel_control_left:active,
+.portfolio_utube_carousel_control_left:focus,
+.portfolio_utube_carousel_control_right,
+.portfolio_utube_carousel_control_right:hover,
+.portfolio_utube_carousel_control_right:active,
+.portfolio_utube_carousel_control_right:focus{
+  color: #282828;
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/*---------- CAPTION ----------*/
+/*---------- IMAGE ----------*/
+.portfolio_utube_item_image>a,
+.portfolio_utube_item_image>a:visited{
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+}
+/*---------- TEXT ----------*/
+.portfolio_utube_item_caption>a:hover,
+.portfolio_utube_item_caption>a:active{
+  color: #e62117;
+}
+.portfolio_utube_item_caption_author{
+  color: #767676;
+}
+.portfolio_utube_item_caption_author>a,
+.portfolio_utube_item_caption_author>a:visited{
+  color: #767676;
+}
+.portfolio_utube_item_caption_author>a:active,
+.portfolio_utube_item_caption_author>a:hover{
+  color: #5969dc;
+}
+.portfolio_utube_item_caption_author>i{
+  color: #767676;
+}
+.portfolio_utube_item_caption_author>i:hover{
+  color: #e62117;
+}
+.portfolio_utube_item_caption>ul>li{
+  color: #767676;
+}
+/*------------------------------------------------------*/
+/* SLIDING TIMING FUNCTIONS
+/*------------------------------------------------------*/
+/*---------- ps_ease ----------*/
+.ps_ease .carousel-item{
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/*---------- ps_easeInOut ----------*/
+.ps_easeInOut .carousel-item{
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/*---------- ps_speedy ----------*/
+.ps_speedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0,1,0,1);
+  transition-timing-function: cubic-bezier(0,1,0,1);
+}
+/*---------- ps_slowSpeedy ----------*/
+.ps_slowSpeedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.3,1,0,1);
+  transition-timing-function: cubic-bezier(0.3,1,0,1);
+}
+/*---------- ps_easeOutInCubic ----------*/
+.ps_easeOutInCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+  transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+}
+/*---------- ps_swing ----------*/
+.ps_swing .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.02,.01,.47,1);
+  transition-timing-function: cubic-bezier(.02,.01,.47,1);
+}
+/*---------- ps_easeOutCubic ----------*/
+.ps_easeOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+/*---------- ps_easeInOutCubic ----------*/
+.ps_easeInOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.645,.045,.355,1);
+  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+}
+/*---------- ps_easeOutCirc ----------*/
+.ps_easeOutCirc .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.075,.82,.165,1);
+  transition-timing-function: cubic-bezier(.075,.82,.165,1);
+}
+/*---------- ps_easeOutExpo ----------*/
+.ps_easeOutExpo .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.19,1,.22,1);
+  transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+/*---------- ps_easeInQuad ----------*/
+.ps_easeInQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+  transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+}
+/*---------- ps_easeOutQuad ----------*/
+.ps_easeOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+  transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+/*---------- ps_easeInOutQuad ----------*/
+.ps_easeInOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+}
+/*---------- ps_easeOutQuart ----------*/
+.ps_easeOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.165,.84,.44,1);
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+/*---------- ps_easeInOutQuart ----------*/
+.ps_easeInOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.77,0,.175,1);
+  transition-timing-function: cubic-bezier(.77,0,.175,1);
+}
+/*---------- ps_easeOutQuint ----------*/
+.ps_easeOutQuint .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.23,1,.32,1);
+  transition-timing-function: cubic-bezier(.23,1,.32,1);
+}
+/*---------- ps_easeInSine ----------*/
+.ps_easeInSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.47,0,.745,.715);
+  transition-timing-function: cubic-bezier(.47,0,.745,.715);
+}
+/*---------- ps_easeOutSine ----------*/
+.ps_easeOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.39,.575,.565,1);
+  transition-timing-function: cubic-bezier(.39,.575,.565,1);
+}
+/*---------- ps_easeInOutSine ----------*/
+.ps_easeInOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+  transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+/*---------- END ----------*/

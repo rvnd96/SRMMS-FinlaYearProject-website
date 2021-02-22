@@ -1,0 +1,335 @@
+/*
+	StyleSheet For Responsive Bootstrap Carousel 4
+	Author: szthemes
+	Item Name: Responsive Bootstrap Carousel 4
+	Author URI: http://codecanyon.net/user/szthemes
+	Description: Different Types of Bootstrap Carousel 4
+
+  ---------------------------------------------------------------------------------------
+							Fonts Styles
+  ---------------------------------------------------------------------------------------
+	  'Open Sans', sans-serif -------------------------------- 01
+	            FontAwesome ---------------------------------- 02
+  ---------------------------------------------------------------------------------------
+							Color Codes
+  ---------------------------------------------------------------------------------------
+	NAME    ------------------------RGB-------------------------- #
+	#ffffff -------------------rgb(255, 255, 255)---------------- 01
+	#888888 -------------------rgb(136, 136, 136)---------------- 02
+	#171717 -------------------rgb(23, 23, 23)------------------- 03
+	#feb600 -------------------rgb(254, 182, 0)------------------ 04	Replace Only This Color To Change Whole Color Scheme
+	#ffe299 -------------------rgb(255, 226, 153)---------------- 05	Replace Only This Color To Change Whole Color Scheme
+*/
+
+/*------------------------------------------------------*/
+/* TESTIMONIAL SPEECH BUBBLE BOX RIGHT CAROUSEL
+/*------------------------------------------------------*/
+.testim_spch_babl_box_right_carousel_wrapper{
+  padding: 25px;
+  overflow: hidden;
+}
+.testim_spch_babl_box_right_carousel_wrapper > h1{
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.testim_spch_babl_box_right_carousel_wrapper > hr{
+  width: 10%;
+}
+.testim_spch_babl_box_right_carousel_wrapper .carousel-item > .row{
+  margin: 0;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.testim_spch_babl_box_right_carousel_control_left,
+.testim_spch_babl_box_right_carousel_control_right{
+  top: 90px;
+  z-index: 2;
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+  text-shadow: none;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.testim_spch_babl_box_right_carousel_control_icons{
+  line-height: 35px;
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+.testim_spch_babl_box_right_carousel_control_left{
+  left: 40px !important;
+}
+.testim_spch_babl_box_right_carousel_control_right{
+   left: 78px !important;
+}
+/*---------- MEDIA QURIES ----------*/
+@media only screen and (max-width: 550px){
+  .testim_spch_babl_box_right_carousel_control_left,
+  .testim_spch_babl_box_right_carousel_control_right{
+    top: 125px;
+  }
+}
+/*---------- INDICATORS ----------*/
+.testim_spch_babl_box_right_carousel_indicators{
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+.testim_spch_babl_box_right_carousel_indicators li{
+  width: 15px;
+  margin: 1px;
+  height: 15px;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testim_spch_babl_box_right_carousel_indicators .active{
+  width: 15px;
+  margin: 1px;
+  height: 15px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/*---------- CAPTION ----------*/
+.testim_spch_babl_box_right_carousel_caption{
+  margin-top: 25px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+.testim_spch_babl_box_right_carousel_text>p{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  line-height: 26px;
+  position: relative;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+.testim_spch_babl_box_right_carousel_text>p:after{
+  top: 30px;
+  right: -10px;
+  content: '';
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+}
+.testim_spch_babl_box_right_carousel_text>p>i{
+  margin-right: 5px;
+}
+.testim_spch_babl_box_right_carousel_image{
+  padding: 10px;
+  text-align: center;
+}
+.testim_spch_babl_box_right_carousel_img img{
+  width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 110px;
+  -webkit-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  -ms-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
+  filter: grayscale(70%);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.testim_spch_babl_box_right_carousel_caption:hover .testim_spch_babl_box_right_carousel_img img{
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.testim_spch_babl_box_right_carousel_image>h5{
+  font-weight: 600;
+  margin: 5px 0px 5px 0px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.testim_spch_babl_box_right_carousel_image>a,
+.testim_spch_babl_box_right_carousel_image>a:visited{
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+}
+.testim_spch_babl_box_right_carousel_image ul{
+  padding: 0px;
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+}
+.testim_spch_babl_box_right_carousel_image ul li{
+  display: inline;
+}
+
+/*------------------------------------------------------*/
+/* COLORS (GOLDEN)
+/*------------------------------------------------------*/
+
+.testim_spch_babl_box_right_carousel_wrapper{
+  background: #ffffff;
+}
+.testim_spch_babl_box_right_carousel_wrapper > hr{
+  border: 1px solid #feb600;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.testim_spch_babl_box_right_carousel_control_left,
+.testim_spch_babl_box_right_carousel_control_left:hover,
+.testim_spch_babl_box_right_carousel_control_left:active,
+.testim_spch_babl_box_right_carousel_control_left:focus,
+.testim_spch_babl_box_right_carousel_control_right,
+.testim_spch_babl_box_right_carousel_control_right:hover,
+.testim_spch_babl_box_right_carousel_control_right:active,
+.testim_spch_babl_box_right_carousel_control_right:focus{
+  color: #171717;
+  background: #feb600 !important;
+}
+/*---------- INDICATORS ----------*/
+.testim_spch_babl_box_right_carousel_indicators li{
+  background: #ffe299;
+}
+.testim_spch_babl_box_right_carousel_indicators .active{
+  background: #feb600;
+}
+/*---------- CAPTION ----------*/
+.testim_spch_babl_box_right_carousel_caption{
+  background: #cccccc47;
+}
+.testim_spch_babl_box_right_carousel_text>p{
+  color: #fff;
+  background: #4c7ff3;
+}
+.testim_spch_babl_box_right_carousel_text>p:after{
+  border-color: transparent #5969dc;
+}
+.testim_spch_babl_box_right_carousel_image>h5{
+  color: #171717;
+}
+.testim_spch_babl_box_right_carousel_image>a,
+.testim_spch_babl_box_right_carousel_image>a:visited{
+  color: #888888;
+}
+.testim_spch_babl_box_right_carousel_image>a:hover,
+.testim_spch_babl_box_right_carousel_image>a:active{
+  color: #5969dc;
+}
+.testim_spch_babl_box_right_carousel_image ul li i{
+  color: #5969dc;
+}
+/*------------------------------------------------------*/
+/* SLIDING TIMING FUNCTIONS
+/*------------------------------------------------------*/
+/*---------- ps_ease ----------*/
+.ps_ease .carousel-item{
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/*---------- ps_easeInOut ----------*/
+.ps_easeInOut .carousel-item{
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/*---------- ps_speedy ----------*/
+.ps_speedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0,1,0,1);
+  transition-timing-function: cubic-bezier(0,1,0,1);
+}
+/*---------- ps_slowSpeedy ----------*/
+.ps_slowSpeedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.3,1,0,1);
+  transition-timing-function: cubic-bezier(0.3,1,0,1);
+}
+/*---------- ps_easeOutInCubic ----------*/
+.ps_easeOutInCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+  transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+}
+/*---------- ps_swing ----------*/
+.ps_swing .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.02,.01,.47,1);
+  transition-timing-function: cubic-bezier(.02,.01,.47,1);
+}
+/*---------- ps_easeOutCubic ----------*/
+.ps_easeOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+/*---------- ps_easeInOutCubic ----------*/
+.ps_easeInOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.645,.045,.355,1);
+  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+}
+/*---------- ps_easeOutCirc ----------*/
+.ps_easeOutCirc .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.075,.82,.165,1);
+  transition-timing-function: cubic-bezier(.075,.82,.165,1);
+}
+/*---------- ps_easeOutExpo ----------*/
+.ps_easeOutExpo .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.19,1,.22,1);
+  transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+/*---------- ps_easeInQuad ----------*/
+.ps_easeInQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+  transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+}
+/*---------- ps_easeOutQuad ----------*/
+.ps_easeOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+  transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+/*---------- ps_easeInOutQuad ----------*/
+.ps_easeInOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+}
+/*---------- ps_easeOutQuart ----------*/
+.ps_easeOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.165,.84,.44,1);
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+/*---------- ps_easeInOutQuart ----------*/
+.ps_easeInOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.77,0,.175,1);
+  transition-timing-function: cubic-bezier(.77,0,.175,1);
+}
+/*---------- ps_easeOutQuint ----------*/
+.ps_easeOutQuint .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.23,1,.32,1);
+  transition-timing-function: cubic-bezier(.23,1,.32,1);
+}
+/*---------- ps_easeInSine ----------*/
+.ps_easeInSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.47,0,.745,.715);
+  transition-timing-function: cubic-bezier(.47,0,.745,.715);
+}
+/*---------- ps_easeOutSine ----------*/
+.ps_easeOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.39,.575,.565,1);
+  transition-timing-function: cubic-bezier(.39,.575,.565,1);
+}
+/*---------- ps_easeInOutSine ----------*/
+.ps_easeInOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+  transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+/*---------- END ----------*/
